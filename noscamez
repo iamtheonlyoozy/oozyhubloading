@@ -36,8 +36,8 @@ if not Success then
 	warn("\nOozy hub - Failed to load Feather Icons. Error code: " .. Response .. "\n")
 end	
 
-local function GetIcon(IconName)
-	if Icons[IconName] ~= nil then
+local function GetIcon(x)
+	if Icons[x] ~= nil then
 		return Icons[IconName]
 	else
 		return nil
