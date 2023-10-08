@@ -1,0 +1,135 @@
+-- Instances: 13 | Scripts: 0 | Modules: 0
+local G2L = {};
+
+-- StarterGui.ScreenGui
+G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+-- StarterGui.ScreenGui.Frame-UI
+G2L["2"] = Instance.new("Folder", G2L["1"]);
+G2L["2"]["Name"] = [[Frame-UI]];
+
+-- StarterGui.ScreenGui.Frame-UI.UI-Shadow
+G2L["3"] = Instance.new("Frame", G2L["2"]);
+G2L["3"]["ZIndex"] = -999999999;
+G2L["3"]["BackgroundTransparency"] = 1;
+G2L["3"]["Size"] = UDim2.new(0, 400, 0, 400);
+G2L["3"]["Position"] = UDim2.new(0.3533724248409271, 0, 0.09183673560619354, 0);
+G2L["3"]["Name"] = [[UI-Shadow]];
+
+-- StarterGui.ScreenGui.Frame-UI.UI-Shadow.ambientShadow
+G2L["4"] = Instance.new("ImageLabel", G2L["3"]);
+G2L["4"]["SliceCenter"] = Rect.new(10, 10, 118, 118);
+G2L["4"]["ScaleType"] = Enum.ScaleType.Slice;
+G2L["4"]["ImageColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4"]["ImageTransparency"] = 0.8799999952316284;
+G2L["4"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["4"]["Image"] = [[rbxassetid://1316045217]];
+G2L["4"]["Size"] = UDim2.new(1, 21, 1, 21);
+G2L["4"]["Name"] = [[ambientShadow]];
+G2L["4"]["BackgroundTransparency"] = 1;
+G2L["4"]["Position"] = UDim2.new(0.5, 0, 0.5, 16);
+
+-- StarterGui.ScreenGui.Frame-UI.UI-Shadow.penumbraShadow
+G2L["5"] = Instance.new("ImageLabel", G2L["3"]);
+G2L["5"]["SliceCenter"] = Rect.new(10, 10, 118, 118);
+G2L["5"]["ScaleType"] = Enum.ScaleType.Slice;
+G2L["5"]["ImageColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5"]["ImageTransparency"] = 0.8799999952316284;
+G2L["5"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["5"]["Image"] = [[rbxassetid://1316045217]];
+G2L["5"]["Size"] = UDim2.new(1, 21, 1, 21);
+G2L["5"]["Name"] = [[penumbraShadow]];
+G2L["5"]["BackgroundTransparency"] = 1;
+G2L["5"]["Position"] = UDim2.new(0.5, 0, 0.5, 16);
+
+-- StarterGui.ScreenGui.Frame-UI.UI-Shadow.umbraShadow
+G2L["6"] = Instance.new("ImageLabel", G2L["3"]);
+G2L["6"]["SliceCenter"] = Rect.new(10, 10, 118, 118);
+G2L["6"]["ScaleType"] = Enum.ScaleType.Slice;
+G2L["6"]["ImageColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6"]["ImageTransparency"] = 0.8600000143051147;
+G2L["6"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["6"]["Image"] = [[rbxassetid://1316045217]];
+G2L["6"]["Size"] = UDim2.new(1, 21, 1, 21);
+G2L["6"]["Name"] = [[umbraShadow]];
+G2L["6"]["BackgroundTransparency"] = 1;
+G2L["6"]["Position"] = UDim2.new(0.5, 0, 0.5, 16);
+
+-- StarterGui.ScreenGui.Frame-UI.Frame
+G2L["7"] = Instance.new("Frame", G2L["2"]);
+G2L["7"]["Active"] = true;
+G2L["7"]["BorderSizePixel"] = 0;
+G2L["7"]["BackgroundColor3"] = Color3.fromRGB(53, 53, 53);
+G2L["7"]["Size"] = UDim2.new(0, 400, 0, 400);
+G2L["7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7"]["Position"] = UDim2.new(0.3533724248409271, 0, 0.09183673560619354, 0);
+
+-- StarterGui.ScreenGui.Frame-UI.Frame.ImageButton
+G2L["8"] = Instance.new("ImageButton", G2L["7"]);
+G2L["8"]["BorderSizePixel"] = 0;
+G2L["8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["8"]["Image"] = [[http://www.roblox.com/asset/?id=5013032505]];
+G2L["8"]["Size"] = UDim2.new(0, 80, 0, 67);
+G2L["8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8"]["Position"] = UDim2.new(0.02500000037252903, 0, 0.7925000190734863, 0);
+G2L["8"]["BackgroundTransparency"] = 1;
+
+-- StarterGui.ScreenGui.Frame-UI.Frame.Animation
+G2L["9"] = Instance.new("Animation", G2L["7"]);
+
+
+-- StarterGui.ScreenGui.Frame-UI.Frame.TextLabel
+G2L["a"] = Instance.new("TextLabel", G2L["7"]);
+G2L["a"]["BorderSizePixel"] = 0;
+G2L["a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a"]["FontFace"] = Font.new([[rbxasset://fonts/families/PermanentMarker.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["a"]["TextSize"] = 40;
+G2L["a"]["TextColor3"] = Color3.fromRGB(185, 185, 185);
+G2L["a"]["Size"] = UDim2.new(0, 400, 0, 50);
+G2L["a"]["Active"] = true;
+G2L["a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a"]["Text"] = [[Roblox Leaks Scripts]];
+G2L["a"]["BackgroundTransparency"] = 1;
+
+-- StarterGui.ScreenGui.Frame-UI.Frame.TextLabel.TextLabel
+G2L["b"] = Instance.new("TextLabel", G2L["a"]);
+G2L["b"]["BorderSizePixel"] = 0;
+G2L["b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["b"]["TextSize"] = 30;
+G2L["b"]["TextColor3"] = Color3.fromRGB(185, 185, 185);
+G2L["b"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["b"]["Text"] = [[Key System]];
+G2L["b"]["BackgroundTransparency"] = 1;
+G2L["b"]["Position"] = UDim2.new(0.25, 0, 1.2000000476837158, 0);
+
+-- StarterGui.ScreenGui.Frame-UI.Frame.TextButton
+G2L["c"] = Instance.new("TextButton", G2L["7"]);
+G2L["c"]["BorderSizePixel"] = 0;
+G2L["c"]["RichText"] = true;
+G2L["c"]["BackgroundColor3"] = Color3.fromRGB(185, 185, 185);
+G2L["c"]["TextSize"] = 20;
+G2L["c"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["c"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c"]["Text"] = [[Copy Key Link]];
+G2L["c"]["Position"] = UDim2.new(0.25, 0, 0.612500011920929, 0);
+G2L["c"]["BackgroundTransparency"] = 0.6000000238418579;
+
+-- StarterGui.ScreenGui.Frame-UI.Frame.TextBox
+G2L["d"] = Instance.new("TextBox", G2L["7"]);
+G2L["d"]["BorderSizePixel"] = 0;
+G2L["d"]["TextSize"] = 20;
+G2L["d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["d"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d"]["Text"] = [[Sua Key Aqui:]];
+G2L["d"]["Position"] = UDim2.new(0.25, 0, 0.4375, 0);
+
+
+return G2L["1"], require;
